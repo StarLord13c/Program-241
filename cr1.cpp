@@ -9,20 +9,20 @@ void main()
     setlocale(LC_ALL, "ukr");
 
     int size1, size2, carry=0;
-    cout << "Ââåä³òü ðîçì³ð äðóãîãî ìàñèâó: ";
+    cout << "Ð’Ð²ÐµÐ´Ñ–Ñ‚ÑŒ Ñ€Ð¾Ð·Ð¼Ñ–Ñ€ Ð¿ÐµÑ€ÑˆÐ¾Ð³Ð¾ Ð¼Ð°ÑÐ¸Ð²Ñƒ: ";
     cin >> size1;
-    cout << "Ââåä³òü ðîçì³ð äðóãîãî ìàñèâó: ";
+    cout << "Ð’Ð²ÐµÐ´Ñ–Ñ‚ÑŒ Ñ€Ð¾Ð·Ð¼Ñ–Ñ€ Ð´Ñ€ÑƒÐ³Ð¾Ð³Ð¾ Ð¼Ð°ÑÐ¸Ð²Ñƒ: ";
     cin >> size2;
     int* array1 = new int[size1];
     int* array2 = new int[size2];
 
-    cout << "Ïåðøèé ìàñèâ: ";
+    cout << "ÐŸÐµÑ€ÑˆÐ¸Ð¹ Ð¼Ð°ÑÐ¸Ð²: ";
     for (int i = 0; i < size1; i++) 
     {
         array1[i] = rand() % 10;
         cout << array1[i];
     }
-    cout << "\n" << "Äðóãèé ìàñèâ: ";
+    cout << "\n" << "Ð”Ñ€ÑƒÐ³Ð¸Ð¹ Ð¼Ð°ÑÐ¸Ð²: ";
     for (int i = 0; i < size2; i++)
     {
         array2[i] = rand() % 10;
@@ -47,7 +47,7 @@ void main()
         result[i] = sum;
     }
 
-    cout << "Ðåçóëüòàò: ";
+    cout << "Ð ÐµÐ·ÑƒÐ»ÑŒÑ‚Ð°Ñ‚: ";
     for (int i = 0; i < max_size; i++) 
     {
         cout << result[i];

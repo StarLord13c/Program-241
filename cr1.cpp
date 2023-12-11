@@ -5,7 +5,7 @@ using namespace std;
 
 void main()
 {
-    srand(static_cast<unsigned int>(std::time(nullptr)));
+    srand(static_cast<unsigned int>(time(nullptr)));
     setlocale(LC_ALL, "ukr");
 
     int size1, size2, carry=0;
